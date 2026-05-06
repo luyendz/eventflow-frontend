@@ -1,5 +1,9 @@
+[phases.setup]
+cmds = ["npm install"]
+
 [phases.build]
 cmds = ["npm run build"]
 
-[start]
-cmd = "npx serve -s build -l $PORT"
+[[services]]
+type = "web"
+command = "npx serve -s build -l $PORT"
