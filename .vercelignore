@@ -1,0 +1,7 @@
+package-backend.json
+server.js
+nixpacks.toml
+node_modules
+build
+.git
+*.log
